@@ -8,6 +8,9 @@
   --font-color-secondary: #fff;
   --font-color-tertiary: #7e7e7e;
   --font-color-quaternary: #1890FF;
+  --font-color-lightgrey: #d9d9d9;
+
+  --border-color-primary: #d9d9d9
   
 }
 
@@ -16,5 +19,20 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+input {
+  width: 298px;
+  height: 40px;
+  border: none;
+  padding: 8px 17px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid var(--border-color-primary);
+}
+
+input::placeholder {
+  color: var(--font-color-lightgrey);
+  font-size: 16px;
 }
 
