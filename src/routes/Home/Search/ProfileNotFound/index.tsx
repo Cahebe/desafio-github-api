@@ -4,7 +4,7 @@ export default function ProfileNotFound() {
   return (
     <section>
       <div className="profile-not-found-card-container">
-        <h1>Profile not found!</h1>
+        <h1>Erro ao buscar usuário!</h1>
       </div>
     </section>
   );

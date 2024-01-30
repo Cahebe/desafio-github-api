@@ -20,10 +20,6 @@ export default function Search() {
     setFormData({ ...formData, [name]: value });
   }
 
-  //function handleProfileNameChange(event: React.ChangeEvent<HTMLInputElement>) {
-  //  setFormData({...formData, profileName: event.target.value})
-  //} --> dessa forma teria que criar uma função pra cada input
-
   async function handleFormSubmit(event: React.FormEvent) {
     event.preventDefault();
 
